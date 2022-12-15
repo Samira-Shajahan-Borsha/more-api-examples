@@ -1,0 +1,19 @@
+.friend{
+    background-color: rgba(255, 205, 238, 0.678);
+    border: 2px solid brown;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.friend img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#friends-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
