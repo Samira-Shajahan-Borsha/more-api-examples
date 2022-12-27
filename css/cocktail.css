@@ -1,0 +1,12 @@
+#drink-detail-container img {
+    /* max-height: 150px;
+    max-width: 200px; */
+    display: flex;
+    width: 350px;
+    height: auto;
+}
+
+#drink-detail-container .card {
+    align-items: center;
+    border: none;
+}

@@ -16,7 +16,7 @@ const displayComments = comments => {
             <h3>${comment.name}</h3>
             <p>Email: ${comment.email}</p>
             <p>Comment Body: ${comment.body}</p>
-            <button onclick="loadCommentDetail(${comment.id})">Comment Details</   button> 
+            <button onclick="loadCommentDetail(${comment.id})">Comment Details</button> 
         `;
         commmentsContainer.appendChild(div);
     });
